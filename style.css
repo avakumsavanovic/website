@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    tansition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color:#0088a9
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.mp {
+    cursor: pointer;
+    color:white;
+    margin: 10px 10px 10px 10px;
+    border-color:white;
+}
+
+.zejo {
+    margin: 50px 40px 50px 90px;
+    color:white;
+}
+
+.zejo1 {
+    margin: -83px 120px 70px 400px;
+    color:white;
+}
+
+.zejo2 {
+    margin: -100px 120px 70px 1200px;
+    color:white;
+}
+
+.zejo3 {
+    margin: -112px 120px 70px 750px;
+    color:white;
+}
+
+.box {
+    margin: 10px 50px 90px 45px;
+    color: white;
+}
+
+.pp1 {
+    margin: -200px 50px 90px 400px;
+    color: white;
+}
+
+.pp2 {
+    margin: -200px 50px 90px 750px;
+    color: white;
+}
+
+.pp3 {
+    margin: -200px 50px 90px 1200px;
+    color: white;
+}
+
+.button {
+    margin: -20px 100px 100px 45px;
+}
+
+.button1 {
+    margin: -50px 100px 100px 110px;
+}
+
+.button2 {
+    margin: 0px 100px 100px 130px;
+}
+.button3 {
+    margin: 0px 100px 100px 210px;
+}
